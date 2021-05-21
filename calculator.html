@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calc</title>
+</head>
+<body>
+    <h1>JS Calculator</h1>
+    <script>
+        const choice=prompt("Enter operation to be performed(+,-,*,/): ")
+        const a=parseFloat(prompt("Enter first number: "))
+        const b=parseFloat(prompt("Enter second number: "))
+        if(choice=='+'){
+            const add=a+b
+            console.log("Addition of numbers give:", add)
+        }
+        else if(choice=='-'){
+            const sub=a-b
+            console.log("Subtraction of numbers give: ", sub)
+        }
+        else if(choice=='*'){
+            const mul=a*b
+            console.log("Multipication of numbers give: ", mul)
+        }
+        else if(choice=='-'){
+            const div=a/b
+            console.log("Division of numbers give: ", div)
+        }
+        else{
+            console.log("Invalid operation")
+        }
+
+
+
+    </script>
+    
+</body>
+</html>
